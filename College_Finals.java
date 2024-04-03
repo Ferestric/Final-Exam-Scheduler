@@ -3,7 +3,7 @@ import java.util.HashMap;
 
 public class College_Finals {
     public static void main(String[] args) {
-        readFile a = new readFile("courses50.txt");
+        readFile a = new readFile("courses336.txt");
         a.scanFile();
         a.combine();
         GetFinalsSchedule m = new GetFinalsSchedule();
